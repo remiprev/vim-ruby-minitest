@@ -72,6 +72,7 @@ syntax keyword rubyTestStatement
       \ context
       \ before
       \ should
+      \ should_not
       \ teardown
       \ setup
       \ expect
