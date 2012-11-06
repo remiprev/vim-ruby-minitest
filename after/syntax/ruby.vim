@@ -20,6 +20,8 @@ syntax keyword rubyTestMethod
       \ assert_same
       \ assert_silent
       \ assert_throws
+      \ assert_have_content
+      \ assert_have_selector
       \ refute
       \ refute_empty
       \ refute_equal
@@ -34,6 +36,8 @@ syntax keyword rubyTestMethod
       \ refute_predicate
       \ refute_respond_to
       \ refute_same
+      \ refute_have_content
+      \ refute_have_selector
       \ must_be
       \ must_be_close_to
       \ must_be_empty
@@ -69,6 +73,7 @@ syntax keyword rubyTestMethod
 syntax keyword rubyTestStatement
       \ describe
       \ it
+      \ its
       \ context
       \ before
       \ should
@@ -76,6 +81,8 @@ syntax keyword rubyTestStatement
       \ teardown
       \ setup
       \ expect
+      \ must
+      \ subject
 
 highlight link rubyTestMethod Function
 highlight link rubyTestStatement Statement
