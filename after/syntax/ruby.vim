@@ -74,6 +74,7 @@ syntax keyword rubyTestStatement
       \ describe
       \ it
       \ its
+      \ let
       \ context
       \ before
       \ should
