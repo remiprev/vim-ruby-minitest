@@ -22,6 +22,8 @@ syntax keyword rubyTestMethod
       \ assert_throws
       \ assert_have_content
       \ assert_have_selector
+      \ assert_current_path
+      \ assert_current_url
       \ refute
       \ refute_empty
       \ refute_equal
